@@ -1,4 +1,19 @@
 // src/components/Calculos.js
+export function calcularHuellaPorCategoria(respuestas = {}) {
+  return {
+    Transporte: (respuestas.kmAuto || 0) * 0.21 + 
+                (respuestas.kmAvion || 0) * 0.15 +
+                (respuestas.kmBus || 0) * 0.05 +
+                (respuestas.kmTren || 0) * 0.03,
+    Hogar: (respuestas.kWhElectricidad || 0) * 0.5 + 
+           (respuestas.m3Gas || 0) * 2.1,
+    Alimentación: (respuestas.kgCarne || 0) * 27 + 
+                  (respuestas.kgPollo || 0) * 6.9 + 
+                  (respuestas.kgVegetales || 0) * 2,
+    Consumo: (respuestas.numRopa || 0) * 30 + 
+             (respuestas.numElectronicos || 0) * 200,
+  };
+}
 
 const factoresEmision = {
     transporte: {
@@ -39,5 +54,7 @@ const factoresEmision = {
       (respuestas.numElectronicos || 0) * factoresEmision.consumo.electronicos;
   
     return totalEmisiones; // kg CO2e al año
+
+    
   }
   

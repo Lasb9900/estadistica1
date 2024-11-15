@@ -10,29 +10,33 @@
   margin: 50px auto;
 }
 
-.resultados-container h2 {
+.resultados-container h2, .resultados-container h3 {
   color: #002855; /* Azul oscuro */
-  font-size: 2em;
-  margin-bottom: 10px;
 }
 
 .emission-result {
   font-size: 2.5em;
-  color: #FF5733; /* Rojo suave para resaltar */
+  color: #FF5733;
   margin: 20px 0;
   font-weight: bold;
+}
+
+.chart-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .suggestions {
   text-align: left;
   margin-top: 30px;
-  font-size: 1.1em;
 }
 
 .suggestions h3 {
-  color: #002855; /* Azul oscuro */
+  color: #002855;
   font-size: 1.5em;
-  margin-bottom: 15px;
 }
 
 .suggestions ul {
