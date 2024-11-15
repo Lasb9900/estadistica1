@@ -1,0 +1,74 @@
+/* Bienvenido.css */
+
+.bienvenido-container {
+  background-color: #002855; /* Azul UCAB */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  max-width: 400px;
+  margin: 50px auto;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+
+.bienvenido-container h2 {
+  color: #FFD100;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.bienvenido-container p {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.bienvenido-form .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.bienvenido-form label {
+  display: block;
+  font-size: 1em;
+  color: #FFD100;
+  margin-bottom: 5px;
+}
+
+.bienvenido-form input[type="text"] {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  width: calc(100% - 24px); /* Ajuste de ancho para mantener margen */
+  font-size: 1em;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.bienvenido-form input[type="text"]:focus {
+  transform: scale(1.03);
+  outline: none;
+  border: 1px solid #FFD100;
+}
+
+.start-button {
+  padding: 12px 20px;
+  background-color: #FFD100;
+  color: #002855;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #FFC107;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+

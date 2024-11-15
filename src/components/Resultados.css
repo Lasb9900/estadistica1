@@ -1,0 +1,46 @@
+/* Resultados.css */
+
+.resultados-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.resultados-container h2 {
+  color: #002855; /* Azul oscuro */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.emission-result {
+  font-size: 2.5em;
+  color: #FF5733; /* Rojo suave para resaltar */
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.suggestions {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 1.1em;
+}
+
+.suggestions h3 {
+  color: #002855; /* Azul oscuro */
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.suggestions ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.suggestions li {
+  margin-bottom: 10px;
+  color: #333;
+}
